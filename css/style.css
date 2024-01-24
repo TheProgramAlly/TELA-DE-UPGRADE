@@ -6,6 +6,7 @@
 * {
     padding: 0;
     height: 0;
+    box-sizing: border-box;
 }
 
 
@@ -13,35 +14,55 @@ body {
     background-color: #010A2D;
     color: white;
     font-family: 'Inter',  sans-serif; 
+    width: 100%;
     
 }
 
 .cabecalho {
-    padding: 1% 0% 0% 0%;
+  display: flex;
+  width: 100%;
+  height: 90px;
+  align-items: center;
+  padding: 0 3%;
+
    
 }
 
- .cabecalho_menu {
+
+main {
+  width: 100%;
+}
+
+
+ .cabecalho__menu {
     display: flex;
-    gap: 2000px;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+    
  }
 
 .cabecalho__menu__links {
 
   
     font-size: 25px;
-    font-weight: 600px;
+    font-weight: 600;
     font-family: 'Inter', sans-serif;
-    display: inline;
-    align-items: center;
-    padding: 0% 10% 0% 8%;
     text-decoration: none;
+    color: white;
+    cursor: pointer;
+    
    
-    
-    
-    
-    
+    transition: 0.2s ease-in-out;
+   
+       
 }
+
+.cabecalho__menu__links:hover {
+  transform: scale(1.05);
+  font-size: 30px; 
+}
+ 
 
 .LA {
     position: absolute;
@@ -82,9 +103,14 @@ body {
     background-color: #10163A;
     width: 100px;
     height: 100px;
+    cursor:pointer;
+    
   
    
   }
+
+  
+
 
   .box2 {
     background-image: url(/imagens/HTML.png);

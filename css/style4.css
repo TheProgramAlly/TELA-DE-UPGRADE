@@ -25,6 +25,9 @@ body {
     gap: 2000px;
  }
 
+
+
+
 .cabecalho__menu__links {
 
   
@@ -35,7 +38,7 @@ body {
     align-items: center;
     padding: 0% 10% 0% 8%;
     text-decoration: none;
-   
+    color: white;
     
     
     
