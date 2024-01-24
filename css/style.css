@@ -7,6 +7,8 @@
     padding: 0;
     height: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
 
@@ -15,17 +17,38 @@ body {
     color: white;
     font-family: 'Inter',  sans-serif; 
     width: 100%;
+    position: relative;
     
 }
 
 .cabecalho {
   display: flex;
-  width: 100%;
   height: 90px;
   align-items: center;
-  padding: 0 3%;
-
+  width: 100%;
+ 
    
+}
+
+.hero-image {
+  max-width: 100%;
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  padding-top: 20%;
+  
+  
+}
+
+.hero-image img {
+  height: 1000px;
+  width: 500px;
+  aspect-ratio: 2/4;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translateX(-50%);
+  
 }
 
 
@@ -37,7 +60,7 @@ main {
  .cabecalho__menu {
     display: flex;
     align-items:center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     
  }
@@ -45,49 +68,55 @@ main {
 .cabecalho__menu__links {
 
   
-    font-size: 25px;
-    font-weight: 600;
-    font-family: 'Inter', sans-serif;
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-    
+  color: #616161;
+
+  font-family: Inter;
+  font-size: 37.84px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: normal;
+  transform: scale(1);
+  display: inline-block; 
    
-    transition: 0.2s ease-in-out;
+  transition: all 0.1s ease-in;
    
        
 }
 
-.cabecalho__menu__links:hover {
-  transform: scale(1.05);
-  font-size: 30px; 
+.cabecalho__menu__links:hover  {
+  transform: scale(1.1);
+  color: rgb(255, 255, 255);
+  transition: all 0.1s ease-in;
+  
 }
- 
 
-.LA {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 200px;
-    height: 30px;
-    padding: 9% 0 0 9%;
-    font-weight: 300;
-    
-  }
+
+
+
+  
+
+ .language {
+  display: grid;
+  gap: 50px;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 10rem;
+ }
+
+ .title {
+
+ }
+
 
 
 .container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 25px;
+    
     width: 300px;
     height: 300px;
-    margin: 0 auto;
-    float: left;
-    margin-right: 10px;
-    padding: 10% 0% 0% 4%;
-    
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+  
   }
 
   .boxes {
@@ -143,7 +172,7 @@ main {
         height: 100px;
         background-color: #10163A;
        
-    }ç
+    }
 
     .box6 {
         background-color: #10163A;
@@ -181,19 +210,6 @@ main {
         height: 100px;
       
      }
-
-
-
-
-
-
-
-
-
-        
-    
-  
-  
 
   
   
