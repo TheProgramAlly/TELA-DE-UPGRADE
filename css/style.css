@@ -1,7 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
-
-
 
 * {
     padding: 0;
@@ -101,6 +98,7 @@ main {
 
  .about {
   padding: 3% 3% 3% 0%;
+  border: 1px solid red;
  }
 
  .forme {
@@ -130,6 +128,12 @@ main {
  
  }
 
+ ul {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+ }
+
  .ally {
   color: #FFF;
 
@@ -141,6 +145,19 @@ line-height: normal;
 padding: 2% 0% 0% 2%;
  }
 
+ .level1 {
+
+color: #FFF;
+font-family: Inter;
+font-size: 25.227px;
+font-style: italic;
+font-weight: 200;
+line-height: normal;
+position: absolute;
+top: 30px;
+left: 270px;
+ }
+
 
  .text1 {
 
@@ -149,13 +166,22 @@ padding: 2% 0% 0% 2%;
   flex-wrap: nowrap;
   margin-bottom: 100%;
   font-size: 20px;
-  padding: 0% 3% 0% 0%;
+  padding: 0% 4% 10% 0%;
   width: 500px;
   height: 25px;
   margin-top: 5px;
-   
-  
 
+ 
+
+ }
+
+ .chaves {
+  color: #FFF;
+font-family: Inter;
+font-size: 25.227px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
  }
 
 
