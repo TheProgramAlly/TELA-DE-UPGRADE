@@ -13,7 +13,7 @@
 
 
 body {
-    background-color: #010A2D;
+    background-image: url(/imagens/wallpaper.png);
     color: white;
     font-family: 'Inter',  sans-serif; 
     width: 100%;
@@ -68,7 +68,7 @@ main {
 .cabecalho__menu__links {
 
   
-  color: #616161;
+  color: #000000;
 
   font-family: Inter;
   font-size: 37.84px;
@@ -101,26 +101,25 @@ main {
   align-items: center;
   padding: 1rem;
   margin-top: 10rem;
- }
-
- .title {
 
  }
+
+ 
 
 
 
 .container {
     
     width: 300px;
-    height: 300px;
+    height: 400.61px;
     display: grid;
     grid-template-columns: repeat(3, 100px);
-    gap: 10px;
+    gap: 30px;
   
   }
 
   .boxes {
-    background-color: #10163A;
+    background-color: #61090A;
     width: 100px;
     height: 100px;
     border: 1px solid red; }
@@ -129,7 +128,7 @@ main {
   
   .box1 {
     background-image: url(/imagens/css.png);
-    background-color: #10163A;
+    background-color: #61090A;
     width: 100px;
     height: 100px;
     cursor:pointer;
@@ -145,7 +144,7 @@ main {
     background-image: url(/imagens/HTML.png);
     width: 100px;
     height: 100px; 
-    background-color: #10163A;
+    background-color: #61090A;
     
 }
 
@@ -153,59 +152,59 @@ main {
     background-image: url(/imagens/JS.png);
     width: 100px;
     height: 100px;
-    background-color: #10163A;
+    background-color: #61090A;
    
      }
 
 
     .box4 {
-        background-color: #10163A;
+        background-color: #61090A;
         width: 100px;
         height: 100px;
-        background-color: #10163A;
+        background-color: #61090A;
         
      }
 
      .box5 {
-        background-color: #10163A;
+        background-color: #61090A;
         width: 100px;
         height: 100px;
-        background-color: #10163A;
+        background-color: #61090A;
        
     }
 
     .box6 {
-        background-color: #10163A;
+        background-color: #61090A;
         width: 100px;
         height: 100px;
-        background-color: #10163A;
+        background-color: #61090A;
         
     }
 
     .box7 {
-        background-color: #10163A;
+        background-color: #61090A;
         width: 100px;
         height: 100px;
-        background-color: #10163A;
+        background-color: #61090A;
     }
 
     .box8 {
-        background-color: #10163A;
+        background-color: #61090A;
         width: 100px;
         height: 100px;
-        background-color: #10163A;
+        background-color: #61090A;
         
     }
 
     .box9 {
-        background-color: #10163A;
+        background-color: #61090A;
         width: 100px;
         height: 100px;
         
      }
 
      .box10 {
-        background-color: #10163A;
+        background-color: #61090A;
         width: 100px;
         height: 100px;
       
